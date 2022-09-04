@@ -1,0 +1,56 @@
+#folder {
+  .grid-item {
+    background: transparent !important;
+    .name {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .card {
+      &:hover {
+        background: #f7f9fa;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .list {
+    .list-item {
+      height: 60px;
+      line-height: 30px;
+      font-size: 14px;
+
+      .name {
+        padding-top: 2px;
+      }
+
+      input {
+        font-size: 14px;
+        width: 80%;
+        max-width: 80%;
+        margin-left: -5px;
+      }
+
+      &:hover {
+        background: #f8f9fa !important;
+      }
+
+      &.selected {
+        background: #f1f1f1 !important;
+      }
+    }
+  }
+
+  .parent-folder-item.folder-item {
+    &:hover {
+      background: #f7f9fa;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

@@ -70,7 +70,3 @@ Check out the [demo](https://www.boxdrop.io) running at [www.boxdrop.io](https:/
 Boxdrop logo made by [@darkrubyist](https://github.com/darkrubyist).
 
 
-## License
-
-Boxdrop is released under the [MIT License](LICENSE.txt).
-# managementappp
